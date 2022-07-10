@@ -1,7 +1,7 @@
 {
   "name": "What is NodeJS?",
-  "type": "editor_interactive",
   "environment": {
+    "type": "editor_interactive",
     "tesseract": true,
     "on": "node:latest",
     "commands": [
