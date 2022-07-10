@@ -1,0 +1,32 @@
+{
+  "name": "What is NodeJS?",
+  "type": "editor_interactive",
+  "environment": {
+    "tesseract": true,
+    "on": "node:latest",
+    "commands": [
+      "npm install"
+    ],
+    "viewport": false,
+    "console": true
+  },
+  "tasks": [
+    {
+      "instructions": "Run the project",
+      "completedByDefault": false,
+      "conditions": [
+        {
+          "type": "file",
+          "file": "index.js",
+          "content": "/resources/correct_index.js",
+          "is": "equal"
+        },
+        {
+          "type": "run",
+          "successful": true,
+          "stdout": ""
+        }
+      ]
+    }
+  ]
+}
