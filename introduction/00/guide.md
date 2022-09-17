@@ -4,7 +4,7 @@ name: "What is NodeJS?"
 environment:
   type: "editor_interactive"
   tesseract: true
-  on: "node_latest"
+  on: "node:latest"
   commands: |
     npm install
     node .
