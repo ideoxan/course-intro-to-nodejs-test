@@ -5,7 +5,7 @@ function sum(a, b) {
 let a = 1, b = 2
 console.log(sum(a, b))
 
-const express = reqire('express')
+const express = require('express')
 const app = express()
 const port = 3000
 
