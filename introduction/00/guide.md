@@ -11,6 +11,9 @@ environment:
   working_directory: "/home/node/"
   viewport: false
   console: true
+  # tcp only by default
+  ports:
+    - 3000
 
 tasks:
   - instructions: "Run the project"
