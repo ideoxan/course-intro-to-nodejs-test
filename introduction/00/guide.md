@@ -1,5 +1,6 @@
 ---
 name: "What is NodeJS?"
+description: "Learn about NodeJS and how it works."
 
 environment:
   type: "editor_interactive"
